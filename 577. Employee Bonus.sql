@@ -1,4 +1,4 @@
-#### Select all employee's name and bonus whose bonus is < 1000. ####
+#### Select all employee's name and bonus whose bonus is < 1000. (Easy) ####
 '''
 Table:Employee
 
