@@ -32,6 +32,13 @@ Example ouput:
 +-------+-------+
 '''
 
+#### Tips:
+'''
+1) Left Join tables and add where condition to select
+2) Inclusding Null: where c1 or c2
+'''
+
+
 SELECT 
     E.name, B.bonus
 FROM 
