@@ -34,6 +34,8 @@ Explanation
 The customer with number '3' has two orders, which is greater than either customer '1' or '2' because each of them  only has one order. 
 So the result is customer_number '3'.
 '''
+
+
 '''
 Tips:
 1) order by, limit
@@ -48,7 +50,7 @@ GROUP BY customer_number
 ORDER BY COUNT(*) DESC
 LIMIT 1;
 
-Follow up: What if more than one customer have the largest number of orders, can you find all the customer_number in this case?
+### Follow up: What if more than one customer have the largest number of orders, can you find all the customer_number in this case?
 
 SELECT 
     customer_number
