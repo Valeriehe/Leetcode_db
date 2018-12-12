@@ -26,14 +26,14 @@ Consecutive available seats are more than 2(inclusive) seats consecutively avail
 2) To find the consecutive available seats, the value in the a.seat_id should be more(or less) than the value b.seat_id, 
 and both of them should be free.
 3) Use distinct to filter the duplicated records.
-
+'''
 
 SELECT 
   distinct a.seat_id
 FROM
   cinema a 
-  JOIN cinema b
-    ON abs(a.seat_id - b.seat_id) = 1
+    JOIN 
+  cinema b ON abs(a.seat_id - b.seat_id) = 1
     AND a.free = true AND b.free = true
 ORDER BY a.seat_id;
 
