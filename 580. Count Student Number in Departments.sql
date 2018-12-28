@@ -24,7 +24,7 @@ And the department table is described as below:
 | dept_id     | Integer |
 | dept_name   | String  |
 where dept_id is the department's ID number and dept_name is the department name.
-
+'
 Here is an example input:
 student table:
 
