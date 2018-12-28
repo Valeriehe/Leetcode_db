@@ -26,14 +26,12 @@ Output:
 Explanation:
 question 285 has answer rate 1/1, while question 369 has 0/1 answer rate, so output 285.
 Note: The highest answer rate meaning is: answer number's ratio in show number in the same question.
-'''
 
 '''
 Tips:
 1) answer/show
 2) count not null answer_id
 '''
-
 
 
 SELECT
