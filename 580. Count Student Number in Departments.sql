@@ -1,6 +1,6 @@
 #### 580. Count Student Number in Departments(Medium) ####
 
-'''
+"""
 A university uses 2 data tables, student and department, to store data about its students and the departments associated with each major.
 
 Write a query to print the respective department name and number of students majoring in each department for all departments in the department table (even ones with no current students).
@@ -47,7 +47,7 @@ The Output should be:
 | Engineering | 2              |
 | Science     | 1              |
 | Law         | 0              |
-'''
+"""
 
 
 '''
