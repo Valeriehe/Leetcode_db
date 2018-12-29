@@ -1,6 +1,6 @@
 #### 585. Investments in 2016(Medium) ####
 
-'''
+"""
 Write a query to print the sum of all total investment values in 2016 (TIV_2016), to a scale of 2 decimal places, for all policy holders who meet the following criteria:
 
 Have the same TIV_2015 value as one or more other policyholders.
@@ -40,7 +40,7 @@ The second record does not meet any of the two criteria. Its TIV_2015 is not lik
 And its location is the same with the third record, which makes the third record fail, too.
 
 So, the result is the sum of TIV_2016 of the first and last record, which is 45.
-'''
+"""
 
 
 '''
