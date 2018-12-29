@@ -1,6 +1,6 @@
 #### 607. Sales Person(Easy) ####
 
-'''
+"""
 Given three tables: salesperson, company, orders.
 Output all the names in the table salesperson, who didn’t have sales to company 'RED'.
 
@@ -54,13 +54,13 @@ Explanation
 
 According to order '3' and '4' in table orders, it is easy to tell only salesperson 'John' and 'Alex' have sales to company 'RED',
 so we need to output all the other names in table salesperson.
-'''
+"""
 
-'''
+"""
 Tips:
 1) where not in
 2) company.name = 'RED', NOT com_id = '1'(only in this case is '1')
-'''
+"""
 
 
 SELECT 
