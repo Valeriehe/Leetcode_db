@@ -36,7 +36,7 @@ Tips:
 1) JOIN salary with employee to add department_id and calculate the department average salary
 2) Create a temporary table that has company average by each pay month, then join this table with the above big table
 3) date_format
-
+"""
 
 SELECT 
     S.pay_month, S.department_id, 
