@@ -1,6 +1,6 @@
 #### 614. Second Degree Follower(Medium) ####
 
-'''
+"""
 In facebook, there is a follow table with two columns: followee, follower.
 
 Please write a sql query to get the amount of each follower’s follower if he/she has one.
@@ -27,17 +27,17 @@ Both B and D exist in the follower list, when as a followee, B's follower is C a
 Note:
 Followee would not follow himself/herself in all cases.
 Please display the result in follower's alphabet order.
-'''
+"""
 
-'''
+"""
 Tips:
 1) Need to select distinct combination
 2) Don' t need to care how many times a person appears in follower column. If a person appears too many times, join 2 tables together may be wrong.
 3) Idea: GROUP BY elements in followee column and count them, then see which elements appear in follower column.
-'''
+"""
 
 
-SSELECT 
+SELECT 
     DISTINCT f2.follower, f1.num 
 FROM
     (SELECT 
