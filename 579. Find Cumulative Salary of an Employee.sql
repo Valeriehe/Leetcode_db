@@ -1,6 +1,6 @@
 ### 579. Find Cumulative Salary of an Employee(Hard) ####
 
-'''
+"""
 The Employee table holds the salary information in a year.
 
 Write a SQL to get the cumulative sum of an employee's salary over a period of 3 months but exclude the most recent month.
@@ -49,7 +49,7 @@ Employ '3' has two salary records except its most recent pay month '4': month '3
 |----|-------|--------|
 | 3  | 3     | 100    |
 | 3  | 2     | 40     |
-'''
+"""
 
 
 
