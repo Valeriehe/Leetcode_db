@@ -1,6 +1,6 @@
 #### 608. Tree Node(Medium) ####
 
-'''
+"""
 Given a table tree, id is identifier of the tree node and p_id is its parent node's id.
 
 +----+------+
@@ -41,7 +41,7 @@ And here is the image of the sample tree as below:
 Note
 
 If there is only one node on the tree, you only need to output its root attributes.
-'''
+"""
 
 
 
